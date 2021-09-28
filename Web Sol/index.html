@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Numbers</title>
+</head>
+<body>
+    <h1>Find matching numbers</h1>
+    <p>What exactly matching numbers are?</p>
+    <img src="https://www.kindpng.com/picc/m/274-2747637_100-number-images-cartoon-hd-png-download.png" alt="numbers">
+    <p class="description-text">Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</p>
+    <p class="description-text">Those numbers which will add up to target would be called matching numbers.</p>
+    <form action="GET">
+        <label for="array">Set array of random numbers (separated by space):</label>
+        <input type="text" id="array" placeholder="2 4 6 8">
+        <label for="target">Set target:</label>
+        <input type="text" id="target" placeholder="6">
+        <button type="button" id="solve" onclick="solveChallenge()">Find Solution</button>
+        <button type="button" id="reset" onclick="resetChallenge()">Reset</button>
+    </form>
+    <div id="result">
+        <div id="positive">First number is 2 found at position 0 and second number is 4 found at position 1.</div>
+        <div id="negative">Combination not found!</div>
+    </div>
+</body>
+<script src="numbers.js"></script>
+</html>

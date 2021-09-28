@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+}
+
+img{
+    width: 280px;
+}
+
+p{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0.6in 0.5in;
+    border: 1px solid #000;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 80vw;
+}
+
+input, button{
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button{
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#result{
+    margin-bottom: 30px;
+    
+}
+
+#positive{
+    color: rgb(37, 179, 255);
+    display: none;
+}
+
+#negative{
+    color: tomato;
+    display: none;
+}
+
+#solve{
+    display: block;
+}
+
+#reset{
+    display: none;
+}
